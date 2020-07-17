@@ -1,0 +1,67 @@
+.header-app{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ToolBar{
+    height: 100px;
+    width: 60vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+.ToolBar button{
+    border: none;
+    border-radius: 200px;
+    max-width: 70px;
+    max-height: 70px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    transition: transform 1s;
+    transform: translateY(0px) scale(1) rotateY(0);
+}
+  
+.ToolBar button:hover{
+    transform: translateY(8px) scale(1.1);
+}
+  
+.ToolBar button:focus{
+    outline: none;
+}
+  
+.Facebutton{
+    background-image: url(../img/facebook-logo-2-1.png);
+    background-size: cover;
+    background-position: center;
+}
+  
+.YOUbutton{
+    background-image: url(../img/Youtube_logo.png);
+    background-size: cover;
+    background-position: center;
+}
+  
+.Twitterbutton{
+    background-image: url(../img/twitter-logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+  
+.Instabutton{
+    background-image: url(../img/insta-logo2.png);
+    background-size: cover;
+    background-position: center;
+}
+  
+.Redditbutton{
+    background-image: url(../img/reddit-logo-16.png);
+    background-size: cover;
+    background-position: center;
+}

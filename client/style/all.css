@@ -1,0 +1,6 @@
+@import "./youtube.css";
+@import "./index.css";
+
+*{
+    user-select: none;
+}

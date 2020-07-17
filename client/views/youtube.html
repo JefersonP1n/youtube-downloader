@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Downloader</title>
+    <link rel="stylesheet" href="../style/all.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap" rel="stylesheet">
+    <script>
+        function show() {
+            document.getElementById(".status").removeAttribute("hidden");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <div class="input-button">
+                <h1>URL</h1>
+                <label>
+                    <input class="input-url" placeholder="https://www.youtube.com/watch?v=6aYzu1HXrrU">
+                </label><br>
+            </div>
+            <form>
+                <label>
+                    <h4>Tipo de arquivo:</h4>
+                </label>
+                <select class="input-audio-video" id="format">
+                   <!-- <option value="audio-only">MP3: Somente Audio (Sem video)⬇️</option>
+                    <option value="video-only">MP4: Somente  (Sem audio)⬇️</option>-->
+                    <option value="video&audio" selected>MP4: Video e Audio ⬇️</option>
+                </select>
+                <label>
+                    <h4>Qualidade:</h4>
+                </label>
+                <select id="quality">
+                    <option value="high" selected>Alta ⬇️</option>
+                    <option value="low">Baixa⬇️</option>
+                </select>
+            </form>
+        </div>
+        <button class="button-convert" ></button><br>
+        <div class="status">
+            <h3 id="downloading" style="color:black;"></h3>
+        </div><br>
+        <h2>Selecione o site:</h2>
+        <div class="ToolBar">
+            <button class="Facebutton"></button>
+            <button class="YOUbutton"></button>
+            <button class="Twitterbutton"></button>
+            <button class="Instabutton"></button>
+            <button class="Redditbutton"></button>
+        </div>
+    </div>
+    <script src="../js/script_yt.js" async defer></script>
+</body>
+</html>
