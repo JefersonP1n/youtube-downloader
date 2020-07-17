@@ -1,4 +1,4 @@
 # youtube-downloader
-npm init -y
-copy package.json
-npm install
+# npm init -y
+# copy package.json
+# npm install
